@@ -154,7 +154,7 @@ def add_bg_image():
         """
         <style>
         .stApp {
-            background-image: url('/Users/ahyaanhassan/Desktop/DALL·E 2024-11-19 01.15.23 - A visually appealing and professional background image for a breast cancer detection project. The image features a soft pink and white gradient to sym.png'); /* Replace with your image file name */
+            background-image: url('DALL·E 2024-11-19 01.15.23 - A visually appealing and professional background image for a breast cancer detection project. The image features a soft pink and white gradient to sym.png'); /* Replace with your image file name */
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
