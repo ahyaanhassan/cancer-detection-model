@@ -148,24 +148,24 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-# Custom CSS for Background Image
-def add_bg_image():
-    st.markdown(
-        """
-        <style>
-        .stApp {
-            background-image: url('DALL·E 2024-11-19 01.15.23 - A visually appealing and professional background image for a breast cancer detection project. The image features a soft pink and white gradient to sym.png'); /* Replace with your image file name */
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+# # Custom CSS for Background Image
+# def add_bg_image():
+#     st.markdown(
+#         """
+#         <style>
+#         .stApp {
+#             background-image: url('DALL·E 2024-11-19 01.15.23 - A visually appealing and professional background image for a breast cancer detection project. The image features a soft pink and white gradient to sym.png'); /* Replace with your image file name */
+#             background-size: cover;
+#             background-repeat: no-repeat;
+#             background-attachment: fixed;
+#         }
+#         </style>
+#         """,
+#         unsafe_allow_html=True
+#     )
 
-# Add the background image
-add_bg_image()
+# # Add the background image
+# add_bg_image()
 
 # App Title
 st.title("Breast Cancer Detection App")
